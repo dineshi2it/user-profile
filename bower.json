@@ -1,0 +1,24 @@
+{
+  "name": "SailsReact",
+  "version": "0.0.0",
+  "homepage": "https://github.com/RAJESHI2IT/SailsReact",
+  "authors": [
+    "RAJESHI2IT <rajesh.p.r@ideas2it.com>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "mdi": "~1.3.41",
+    "matchHeight": "matchheight#~0.6.0",
+    "materialize": "~0.97.5",
+    "modernizr": "~3.2.0"
+  }
+}

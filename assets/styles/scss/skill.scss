@@ -1,0 +1,52 @@
+@import 'color';
+.skillst6 {
+	width: 100%;
+	color: $white;
+	.skillbar {
+		width: 100%;
+		height: 25px;
+		position: relative;
+		margin-bottom: 20px;
+		color: $color_chicago_approx;
+	}
+	.count-bar {
+		height: 3px;
+		width: 0;
+		position: relative;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+		&.color-1 {
+			background-color: $color_curious_blue_approx;
+		}
+		&.color-2 {
+			background-color: $color_west_side_approx;
+		}
+		&.color-3 {
+			background-color: $color_fuchsia_pink_approx;
+		}
+		&.color-4 {
+			background-color: $color_astral_approx;
+		}
+		&.color-5 {
+			background-color: $color_outrageous_orange_approx;
+		}
+	}
+	.title {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		text-transform: uppercase;
+	}
+	.count {
+		position: absolute;
+		top: -20px;
+		right: 5px;
+		line-height: 25px;
+		font-size: 12px;
+		font-weight: 400;
+	}
+}
+@media only screen and(min-width: 768px) and(max-width: 991px) {
+}
+@media only screen and(max-width: 767px) {
+}
