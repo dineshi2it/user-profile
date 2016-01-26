@@ -14,6 +14,7 @@ var Search = React.createClass({
                   ? 
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><Link to="/profile">{ this.props.userInfo.user.username}</Link></li>
+                    <li><a href="#/calendar">calendar</a></li>
                     <li><a href="/logout">Logout</a></li>
                     </ul>
                   :

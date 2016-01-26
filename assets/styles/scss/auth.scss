@@ -1,0 +1,21 @@
+@import 'color';
+.auth-panel {
+    height: 100%;
+    box-shadow: $box-shadow-light;
+    background-color: $white;
+    padding: 20px !important;
+    .title {
+        font-size: 2em;
+        font-weight: 700;
+        padding-bottom: 5px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed $light-gray;
+    }
+}
+.m-t-50{
+    margin-top:50px;
+}
+.m-t-20{
+    margin-top:20px;
+}

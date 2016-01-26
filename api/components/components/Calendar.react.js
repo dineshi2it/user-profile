@@ -1,8 +1,11 @@
 var React = require('react');
 
 var Calendar = React.createClass({
+    getInitialState: function() {
+        return null;
+    },
     componentDidMount: function() {
-
+        initCalendar();
     },
 
     render: function() {

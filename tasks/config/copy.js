@@ -40,7 +40,13 @@ module.exports = function(grunt) {
           src: ['./bower_components/materialize/dist/font/material-design-icons/*'],
           flatten: true,
           dest: '.tmp/public/bower/font/material-design-icons'
-        }, { // copy bower_components js 
+        }, { // copy bower_components font folder
+          expand: true,
+          src: ['./bower_components/mdi/fonts/*'],
+          flatten: true,
+          dest: '.tmp/public/bower/fonts'
+        },
+         { // copy bower_components js 
           expand: true,
           cwd: './bower_components',
           src: [

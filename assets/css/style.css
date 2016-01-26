@@ -21,7 +21,6 @@ nav.sub-nav {
     -webkit-transition: 1s;
     transition: 1s; }
   nav.sub-nav .search-icon {
-    padding-top: 10px;
     float: right;
     margin-right: 10px;
     font-size: 35px; }

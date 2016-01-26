@@ -25,7 +25,7 @@ var codropsEvents = {
 
 
 	
-$(function() {
+function initCalendar() {
 
 	var transEndEventNames = {
 			'WebkitTransition' : 'webkitTransitionEnd',
@@ -145,5 +145,5 @@ $(function() {
 		
 	}
 
-});
+};
 		

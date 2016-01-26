@@ -2,6 +2,8 @@ var React = require('react');
 
 var ProfilePage = React.createClass({
     componentDidMount: function() {
+      $('.skill-set').matchHeight();
+      $('ul.tabs').tabs();
       $('.skillbar').each(function() {
         $(this).appear(function() {
           $(this).find('.count-bar').animate({
