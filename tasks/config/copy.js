@@ -53,7 +53,9 @@ module.exports = function(grunt) {
             'jquery/dist/jquery.min.js',
             'jquery/dist/jquery.min.map',
             'materialize/dist/js/materialize.min.js',
-            'matchHeight/jquery.matchHeight-min.js'
+            'matchHeight/jquery.matchHeight-min.js',
+            'cropper/dist/cropper.js',
+            'base64-js/lib/b64.js'
           ],
           flatten: true,
           dest: '.tmp/public/bower/js'
@@ -63,7 +65,8 @@ module.exports = function(grunt) {
           src: [
             'materialize/dist/css/materialize.css',
             'fontawesome/css/font-awesome.css',
-            'mdi/css/materialdesignicons.css'
+            'mdi/css/materialdesignicons.css',
+            'cropper/dist/cropper.css'
           ],
           flatten: true,
           dest: '.tmp/public/bower/css'

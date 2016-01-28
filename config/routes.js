@@ -37,6 +37,7 @@ module.exports.routes = {
   },
 
   'get /user': 'UserController.index',
+  'post /user/update-avatar': 'UserController.updateAvatar',
 
   'get /login': 'AuthController.login',
   'get /logout': 'AuthController.logout',

@@ -5,7 +5,7 @@ var User = {
   attributes: {
     username  : { type: 'string', unique: true },
     email     : { type: 'email',  unique: true },
-    email1     : { type: 'email',  unique: true, default:"test@mail.com" },
+    avatar    : { type: 'text'},
     passports : { collection: 'Passport', via: 'user' }
   }
 };

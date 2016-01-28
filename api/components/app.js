@@ -13,6 +13,7 @@ var Profile = require('./components/Profile.react');
 var HomePage = require('./components/HomePage.react');
 var ProfilePage = require('./components/ProfilePage.react');
 var Calendar = require('./components/Calendar.react');
+var ProfileEdit = require('./components/ProfileEdit.react');
 
 // Load Mock API Call
 API.getUserList();
@@ -35,6 +36,7 @@ var routes = (
   <Route path="/" handler={Index}>
   <Route path="/" handler={HomePage} />
   <Route path="/profile" handler={ProfilePage} />
+  <Route path="/edit-profile" handler={ProfileEdit} />
   <Route path="/calendar" handler={Calendar} />
   // <Route path="/profile" handler={Profile} />
     <DefaultRoute handler={UserApp}/>

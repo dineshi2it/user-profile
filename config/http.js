@@ -69,7 +69,15 @@ module.exports.http = {
   *                                                                          *
   ***************************************************************************/
 
-    // bodyParser: require('skipper')
+  //To make the http request data limit to 50mb  
+  bodyParser: (function () {
+    var opts = {limit:'50mb'};
+    var fn;
+
+    // Default to built-in bodyParser:
+    fn = require('skipper');
+    return fn(opts);
+  })
 
   // },
 

@@ -1,0 +1,61 @@
+button:focus {
+    outline: none;
+    background-color: #3f51b5;
+}
+
+.profile-edit li.active{
+    display : block;
+}
+
+.profile-menu li.active{
+    background-color: #EEE;
+}
+
+.profile-edit li{
+    display : none;
+}
+
+.profile-menu li{
+    list-style-type: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.profile-menu .title-head-hr{
+    margin-bottom: 0px;
+}
+
+.profile-menu li:last-child{
+    border-bottom: 0px dashed #DDD;
+    margin-bottom: -10px;
+}
+
+
+
+
+
+
+
+.profile-image .panel .panel-card {
+    min-height: initial;
+}
+.profile-image .panel .panel-card .panel-content {
+    min-height: initial;
+    padding: 0px;
+}
+
+.profile-image .panel .panel-card .panel-content img {
+    padding: 10px;
+}
+
+.profile-crop .panel .panel-card .panel-content img {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.profile-crop .cropper-container .cropper-view-box {
+    border-radius: 50%;
+}
