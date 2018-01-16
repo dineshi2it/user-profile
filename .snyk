@@ -1,0 +1,85 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - sails > sails-hook-sockets > socket.io > socket.io-client > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > finalhandler > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > morgan > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-index > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > body-parser > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > compression > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > connect-timeout > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-static > send > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > engine.io > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-parser > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > express-session > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-adapter > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > debug:
+        patched: '2018-01-16T11:18:40.163Z'
+  'npm:ms:20170412':
+    - sails > connect > connect-timeout > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > express-session > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > finalhandler > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > morgan > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-index > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > body-parser > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > compression > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > connect-timeout > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-static > send > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-static > send > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > engine.io > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-parser > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-client > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > sails-hook-sockets > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-favicon > ms:
+        patched: '2018-01-16T11:18:40.163Z'
+  'npm:negotiator:20160616':
+    - sails > connect > compression > accepts > negotiator:
+        patched: '2018-01-16T11:18:40.163Z'
+    - sails > connect > serve-index > accepts > negotiator:
+        patched: '2018-01-16T11:18:40.163Z'
+  'npm:qs:20140806-1':
+    - sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2018-01-16T11:18:40.163Z'
